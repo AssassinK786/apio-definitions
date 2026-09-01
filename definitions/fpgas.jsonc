@@ -969,8 +969,24 @@
       "speed": "1"
     }
   },
+<<<<<<< HEAD
   "xc7z010clg400-1": {
     "part-num": "XC7Z010-1CLG400",
+=======
+  "xc7s25csga324-1": {
+    "part-num": "XC7S25-1CSGA324",
+    "arch": "xilinx",
+    "size": "25k",
+    "xilinx-params": {
+      "yosys-family": "spartan7",
+      "yosys-arch": "xc7",
+      "yosys-part": "xc7s25csga324",
+      "speed": "1"
+    }
+  },
+  "xc7z010clg400": {
+    "part-num": "XC7Z010CLG400",
+>>>>>>> 07f8e61 (fix: use base part name xc7s25csga324 for yosys-part (drop speed grade suffix))
     "arch": "xilinx",
     "size": "28k",
     "xilinx-params": {
